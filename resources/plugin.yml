@@ -1,0 +1,17 @@
+name: Handcuff
+version: ${project.version}
+main: kheeto.handcuff.Handcuff
+api-version: 1.12.2
+authors: [ Kheeto67 ]
+commands:
+  manette:
+    description: Ottieni le manette.
+    usage: /<command>
+  arresta:
+    description: Arresta qualcuno. Richiede di avere le manette in mano.
+    usage: /<command>
+permissions:
+  handcuffs.manette:
+    description: Permesso per usare il comando per ottenere manette
+  handcuffs.arresta:
+    description: Permesso per arrestare qualcuno con le manette
